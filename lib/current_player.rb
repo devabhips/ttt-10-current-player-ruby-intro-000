@@ -22,5 +22,5 @@ def current_player(board)
   'O'
 end
 
-board = ['O', ' ', ' ', ' ', 'X', ' ', ' ', ' ', ' ']
-puts turn_count(board).to_i
+board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
+puts turn_count(board1).to_s
