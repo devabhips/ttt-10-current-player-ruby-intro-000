@@ -11,8 +11,6 @@ def turn_count(board)
 end
 
 def current_player(player_character)
-  if player_character == 'X'
-    return 'O'
-  end
+  return 'O' if player_character == 'X'
   return 'X'
 end
