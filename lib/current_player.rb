@@ -24,5 +24,5 @@ def current_player(board)
   'O'
 end
 
-board = ['O', ' ', ' ', ' ', 'X', ' ', ' ', ' ', ' ']
-puts current_player(board)
+# board = ['O', ' ', ' ', ' ', 'X', ' ', ' ', ' ', ' ']
+# puts current_player(board)
