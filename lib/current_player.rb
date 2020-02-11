@@ -15,7 +15,7 @@ def current_player(board)
   count_y = 0
 
   board.each do |pos|
-    count_x += 1 if pos = 'X'
+    count_x += 1 if pos == 'X'
     count_y += 1 if pos == 'O'
   end
 
