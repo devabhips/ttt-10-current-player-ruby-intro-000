@@ -12,5 +12,5 @@ end
 
 def current_player(player_character)
   return 'O' if player_character == 'X'
-  return 'X'
+  'X'
 end
