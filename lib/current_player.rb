@@ -3,6 +3,7 @@
 def turn_count(board)
   count = 0
   board.each do |pos|
+    print pos + ' - ' + count.to_s
     count += 1 if pos = 'X' || pos == 'O'
   end
   count
