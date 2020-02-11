@@ -13,6 +13,6 @@ end
 def current_player(player_character)
   if player_character == 'X'
     return 'O'
-
+  end
   return 'X' 
 end
