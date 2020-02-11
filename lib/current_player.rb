@@ -11,10 +11,10 @@ def turn_count(board)
 end
 
 def current_player(board)
-  
+
     count_x = 0
     count_y = 0
-    
+
     board.each do |pos|
       count_x += 1 if pos = 'X'
       count_y += 1 if pos == 'O'
