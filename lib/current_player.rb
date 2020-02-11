@@ -10,4 +10,9 @@ def turn_count(board)
   count
 end
 
-def current_player; end
+def current_player(player_character)
+  if player_character == 'X'
+    return 'O'
+
+  return 'X' 
+end
