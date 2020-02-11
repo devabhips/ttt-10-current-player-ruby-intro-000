@@ -23,3 +23,6 @@ def current_player(board)
     return 'X' if count_x == count_y
     'O'
 end
+
+board = ["O", " ", " ", " ", "X", " ", " ", " ", " "]
+current_player board
